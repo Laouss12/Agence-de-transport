@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regestration Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="back">
+        <a href="../../Index.html" class="back-btn">Acceuil</i></a>
+    </div>
+
+    <div class="wrapper">
+        <div class="title">
+            Registration Form
+        </div>       
+
+        <div class="form">
+        <form action="insert.php" method="post">
+            <div class="input_field">
+                <label for="">Nom et prenom</label>
+                <input type="text" class="input" name="nom" required>
+            </div>
+            <div class="input_field">
+                <label for="">Date de naissance</label>
+                <input type="date" class="input" name="date" required>
+            </div>
+    
+            <div class="input_field">
+                <label for="">Email Adress</label> 
+                <input type="text" class="input" name="email" required>
+            </div>
+            <div class="input_field">
+                <label for="">Num Téléphone</label> 
+                <input type="text" name="num" class="input">
+            </div>
+            <div class="input_field">
+                <label for="">Votre Message</label> 
+                <textarea class="textarea" name="txt"></textarea>
+            </div>   
+            <div class="input_field">
+                <input type="submit" value="Envoyer" class="hero-btn" class="btn">    
+            </div>
+        </form>
+        </div> 
+    </div> 
+
+</body>
+</html>
